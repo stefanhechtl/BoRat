@@ -11,7 +11,7 @@ class BenchmarkImpl {
 		}
 		returnTopNGames(benchmark, 1)
 	}
-	
+
 	def gameBenchmark(game: Game): Double = {
 		val recommendationRate = game.gameStats
 		return 0.0
